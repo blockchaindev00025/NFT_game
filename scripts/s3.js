@@ -11,6 +11,8 @@ if (!BUCKETNAME) {
 }
 
 let credentials = {};
+
+
 try {
   credentials = JSON.parse(fs.readFileSync("aws.json"));
 } catch (e) {
@@ -20,6 +22,7 @@ try {
   );
   process.exit(1);
 }
+
 console.log("credentials", credentials);
 
 credentials.bucket = BUCKETNAME;
@@ -29,6 +32,7 @@ const options = {
   useFoldersForFileTypes: false,
   useIAMRoleCredentials: false,
 };
+
 
 // optional cloudfront invalidation rule
 // const invalidation = {
