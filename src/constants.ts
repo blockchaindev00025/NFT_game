@@ -17,6 +17,7 @@ interface IAddresses {
 
 export const addresses: IAddresses = {
   56: {
+    
     BUSD_ADDRESS: "0xe9e7cea3dedca5984780bafc599bd69add087d56", // duplicate
     USDT_ADDRESS: "0x55d398326f99059ff775485246999027b3197955",
     WAND_ADDRESS: "0xa4d9dca41f66a84b452585a66183380a51addc24",
@@ -36,6 +37,7 @@ export const addresses: IAddresses = {
     PT_TOKEN_ADDRESS: "0x0E930b8610229D74Da0A174626138Deb732cE6e9", // #  33T token address, taken from `ticket` function on PRIZE_STRATEGY_ADDRESS
     PT_PRIZE_POOL_ADDRESS: "0xEaB695A8F5a44f583003A8bC97d677880D528248", // #  NEW
     PT_PRIZE_STRATEGY_ADDRESS: "0xf3d253257167c935f8C62A02AEaeBB24c9c5012a", //#   NEW
+    
   },
   97: {
     BUSD_ADDRESS: "0xB2180448f8945C8Cc8AE9809E67D6bd27d8B2f2C", // duplicate
