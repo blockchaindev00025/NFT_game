@@ -7,6 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import useTheme from "./hooks/useTheme";
 import useBonds from "./hooks/Bonds";
+
 import { useAddress, useWeb3Context } from "./hooks/web3Context";
 import useSegmentAnalytics from "./hooks/useSegmentAnalytics";
 import { segmentUA, providerChecker } from "./helpers/userAnalyticHelpers";
